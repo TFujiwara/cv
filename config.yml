@@ -1,0 +1,262 @@
+BaseURL: "https://tfujiwara.github.io/cv/"
+theme: "terminalcv"
+title: "Cristian Garcia Quevedo - Online CV (Curriculum Vitae)"
+
+params:
+  description: "Cristian Garcia Quevedo - Online CV (Curriculum Vitae)"
+  prompt: "cristian@4z4z3l"
+  promptColor: green
+  promptSimbols: ":~$"
+  promptSimbolsColor: blue
+# startxLocation: https://example.com
+# hideSocialName: true
+  exitLocation: https://tfujiwara.github.io/blog/
+  hidesource: true
+  greeting: | 
+    This is 4z4z3l
+
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+      name: "Cristian Garcia Quevedo"
+      alias: "TFujiwara"
+      profession: "Administrador de sistemas"
+      location: "Vila-real (Castellón)"
+      email: "cgarciaquevedo94@gmail.com"
+      homelink: "https://tfujiwara.github.io/blog/"
+      description: |
+              Actualmente estoy trabajando de Administrador de Sistemas, en jornada completa.
+
+              En cuanto a mi experiencia laboral, poseo unos tres años de experiencia en el campo, habiendo realizado distintas tareas sobre clientes y servidores, como el mantenimiento de los mismos, despliegue de aplicaciones, instalación y configuración al gusto de sistemas operativos. 
+
+              Algunas de las tecnologías que he ido aprendiendo y manejando, han sido Docker, entornos de virtualización en Bare Metal (ESXi, Proxmox y KVM), virtualización de aplicativos Windows con Citrix, programación de scripts para automatización de tareas 
+              rutinarias (Bash, Batch y Python), manejo a nivel administrador de un controlador de dominio (DC) y sus funciones.
+
+              Empecé a aprender sobre ciberseguridad cuando hice el primer año del ciclo medio de sistemas microinformáticos y redes, interesandome por la parte de sistemas, aunque me sacara al final el grado superior de desarrollo de aplicaciones web.
+
+              He aprendido sobre ciberseguridad de forma autodidacta, y sigo aprendiendo a día de hoy sobre todo, por que en esta profesión siempre hay cambios y es un aprendizaje constante.
+              
+              Me gusta aprender a hacer mejor mi trabajo, poder ampliar mi visión sobre el entorno corporativo, ser objetivo y poder argumentar y aportar ideas que resulten útiles a la empresa.
+
+              Parte de mi tiempo libre lo uso para contribuir y colaborar con la comunidad de seguridad informática, Whihax Security, en la cual, participo como administrador de sistemas de la misma y también soy cofundador de su proyecto, 
+              el canal de Telegram Security News for Everyone.
+
+              También contribuyo en otras comunidades de ciberseguridad o con individuales que estén en este campo.
+
+              Soy alguien que se considera sociable, optimista, alegre y siempre intento sacar el lado bueno de las cosas negativas de la vida.
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "Github"
+      url: "   https://github.com/tfujiwara"
+
+    - name: "Twitter"
+      url: "  https://twitter.com/TFujiwara86"
+
+    - name: "Linkedin"
+      url: " https://www.linkedin.com/in/cgarciaquevedo/"
+
+  work:
+    - jobTitle: Administrador de sistemas y soporte técnico
+      color: red
+      company: 'Laberit' 
+      location: Antes en Castellón, actualmente en Valencia, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Abril 2021 - actualidad
+      description: | 
+        Trabajando para su cliente, Marazzi Group (división Iberia) como Administrador de sistemas.
+
+        Posteriormente, trabajando de soporte técnico y administrador de sistemas en la sede central de Lãberit.
+
+        Actualmente trabajando de administrador de sistemas en el Instituto Valenciano de Finanzas (IVF).
+
+        - Administración de varios servidores de virtualización con VMware ESXi.
+
+        - Administración de switches CISCO a nivel de switching (VLANs).
+
+        - Solucionar problemas en el entorno corporativo, tanto con el correo electronico, como con otras cosas (Acceso a la Intranet, caducidad de contraseñas..).
+
+        - Realizar instalaciones y retiradas de equipos del parque informático, así como su posterior configuración dadas unas directrices corporativas.
+
+        - Uso de herramientas de gestión de proyectos y documentación, como Jira y Confluence.
+
+        - Creación de documentación técnica.
+
+        - Instalación y configuración de una red WiFi corporativa, haciendo uso de unos controladores CISCO wireless previamente configurados.
+
+        - Manejo a nivel administrador de Office 365, MS Intune, Azure AD Premium & Hybrid, AD On Premise y Windows 10.
+
+    - jobTitle: Administrador de sistemas y soporte técnico para la DGTIC
+      color: red
+      company: 'Grupo Saltó'
+      location: Castellón, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Octubre 2020 - Abril 2021
+      description:  | 
+        - Administración de sistemas Windows, tanto cliente como servidor.
+        
+        - Solucionar problemas en el entorno corporativo de la Generalitat Valenciana, tanto con el correo electronico, como con certificados de usuarios,etc.
+        
+        - Realizar instalaciones y retiradas de equipos del parque informático, así como su posterior configuración de acorde al usuario.
+        
+        - Realizar visitas a las diferentes sedes del cliente para solventar diversos problemas, tanto hardware como software.
+        
+        - Uso avanzado tanto del MeshCommander (Intel AMT) como del Microsoft Endpoint Manager para solventar de forma remota errores en los equipos.
+        
+        - Uso de herramientas de gestión de proyectos y documentación, concretamente Jira y Confluence.
+        
+        - Creación de documentación técnica.
+
+    - jobTitle: Administrador de sistemas y soporte técnico
+      color: red
+      company: 'OPTIZA SOLUCIONES TECNOLOGICAS SL'
+      location: Castellón, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Septiembre 2019 - Marzo 2020
+      description: | 
+       Administración de sistemas Windows y Linux, tanto cliente como servidor.
+
+        - Solucionar problemas a los clientes, tanto con el correo electronico, como con sus propios servidores.
+
+        - Realizar auditorias de seguridad a los servidores de la empresa y clientes conforme a los estándares establecidos.
+
+        - Realizar visitas a los clientes para solventar diversos problemas, tanto hardware como software.
+
+        - Automatización de tareas con Bash.
+
+        - Instalación y configuración de un servidor OpenVPN junto con Apache Guacamole para habilitar el teletrabajo en varios clientes.
+
+        - Uso de herramientas de gestión de proyectos y documentación, concretamente Redmine.
+
+        - Creación de documentación técnica.
+        
+        Cese del contrato debido a la pandemia de COVID19, tras cancelar varios clientes su compromiso con nosotros y no disponer la empresa de los ingresos suficientes para realizar un ERTE.
+
+    - jobTitle: Administrador de sistemas y soporte técnico
+      color: red
+      company: 'Ajuntament de Vila-real'
+      location: Vila-real, Castellón, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Septiembre 2019 - Marzo 2020
+      description: | 
+       - Administración de un entorno corporativo compuesto con un servidor principal ejecutando VMware ESXI y varios servidores Windows virtualizados para dar forma a una infraestructura Active Directory con Citrix.
+       
+       - Atención y resolución de incidencias a usuarios de la plataforma Citrix corporativa.
+       
+       - Sustitución de hardware en los edificios propiedad del ayuntamiento, sean de red o clientes ligeros.
+       
+       - Instalación de un gestor de tickets interno para el propio ayuntamiento.
+       
+       - Creación de documentación técnica..
+
+    - jobTitle: Desarrollador de aplicaciones web
+      color: red
+      company: 'Protección Civil Vila-Real - Contrato de prácticas'
+      location: Vila-real, Castellón, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Marzo 2019 - Junio 2019 
+      description: | 
+       - Se programa una aplicación web que permite ver que voluntarios están apuntados a los servicios disponibles, y permite a los voluntarios apuntarse a los servicios disponibles.
+       
+       - Se permite dar de alta a los usuarios administradores de la plataforma, eliminar o editar, tanto voluntarios como servicios.
+
+       - Se maqueta un frontend para renovar el aspecto de la sección dedicada a protección civil en la web del ayuntamiento, para que puedan contar con una web propia.
+        
+       - Creación de documentación técnica.
+
+    - jobTitle: Técnico de Sistemas Microinfomáticos y Redes
+      color: red
+      company: 'EOI Castelló - Contrato de prácticas'
+      location: Castellón, Comunidad Valenciana / Comunitat Valenciana, España
+      date: Marzo 2015 - Junio 2015 
+      description: | 
+       - Creación de un pequeño script en PHP para determinar si algunos de los correos del webmail poseían de contraseña el nombre de usuario, y mandar un email avisando al administrador.
+       
+       - Creación de un menú simple con HTML5 y CSS3 para incorporarlo en la plataforma Mestre a Casa concedida por Conselleria.
+       
+       - Atención y resolución de incidencias a usuarios.
+       
+       - Creación de documentación técnica.
+
+
+  education:
+   - courseName: Red Color training
+     color: red
+     date: June 2019 - July 2019
+     description: Descrption about red color trianing
+
+   - courseName: Default color training
+     date: Sept 2004 - Jun 2008
+     #description: There is no need for description
+
+  skills:
+    - name: Skill 1
+      percentage: 90
+      Description: you can add a description
+
+    - name: Skill 2
+      percentage: 30
+      #description: or you can leave it comented   
+
+    - name: Skill 3
+      color: blue
+      percentage: 50
+      description: Skill names can have colors too
+
+  softskills:
+    - name: SoftSkill 1
+      color: red
+      percentage: 80
+      #description:
+
+    - name:  SoftSkill 2
+      #color: 
+      percentage: 90
+      description: Description
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 50
+      #description: 
+
+    - name: Gibberish
+      percentage: 100
+      description: pasghettipigglywiggly
+
+
+  projects:
+    - title: Project Red
+      color: red
+      date: since 2019
+      link: https://example.com
+      description: Describing red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2016
+      link: https://example.com/blue
+      #description: nothing to describe
+
+    - title: Project Default
+      date: Since 2017
+      link: https://example.com/default
+      #description: not there either
+
+  misc: 
+    #commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+          Here the title and the content can have different colors
+          The content can be multi
+          
+          line
+
+          And spaces       will be respected as well
+          This section will have the default command: misc
+          but you can name it something else with the property
+          commandName: <String>
+          Give it a shot and try and uncomment the line 
+          commandName: newcommand
+          now instead of misc you can execute the newcommand for this section
+          Auto completion will know it too! :D 
+
+    contentColor: orange
