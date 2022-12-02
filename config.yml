@@ -177,86 +177,109 @@ params:
 
 
   education:
-   - courseName: Red Color training
+   - courseName: Universitat Oberta de Catalunya - Grado en Ingenieria Informática
      color: red
-     date: June 2019 - July 2019
-     description: Descrption about red color trianing
+     date: 2020 - actualmente
+     description: Cursando actualmente.
 
-   - courseName: Default color training
-     date: Sept 2004 - Jun 2008
-     #description: There is no need for description
+   - courseName: IES Miralcamp - Técnico superior en Desarrollo de Aplicaciones Web.
+     color: red
+     date: 2018 - 2019
+
+   - courseName: EACE Formación - Confección y publicación de páginas web
+     color: red
+     date: "2018"
+     description: |
+      Certificaterm.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n"do de profesionalidad. Crear y publicar páginas web que integren textos, imágenes y otros elementos, utilizando lenguajes de marcas y editores apropiados, según especificaciones y 
+      condiciones de usabilidad dadas y realizar los procedimientos de instalación y verificación de las mismas en el servidor correspondiente.
+  
+   - courseName: IES Miralcamp - Técnico en Sistemas Microinformáticos y Redes
+     color: red
+     date: 2016 - 2018
+
+   - courseName: IES Miralcamp - Graduado en Educacion Secundaria Obligatoria (ESO)
+     color: red
+     date: 2013-2016
+
+  certifications:
+    - certName: Lead Auditor Certified - SION CERTIFICATIONS (Comunix)
+      color: red
+      date: Mayo 2021   
+    
+    - certName: Ciberwall Academy 2020
+      color: red
+      date: Enero 2021
+
+    - certName: CNSS - Certified Network Security Specialist - ICSI (International CyberSecurity Institute)
+      color: red
+      date: Abril 2020 
+
+    - certName: B1 de Ingles - Escuela Oficial de Idiomas de Castellón
+      color: red
+      date: Julio 2017  
+
+    - certName: Curso de Javascript
+      color: red
 
   skills:
-    - name: Skill 1
-      percentage: 90
-      Description: you can add a description
+    - name: Lenguajes de programación
+      description: Java, Javascript, PHP, CSS3, SQL, PL/SQL, Bash, Batch, jQuery, Python.
 
-    - name: Skill 2
-      percentage: 30
-      #description: or you can leave it comented   
+    - name: Plataformas de virtualizacion
+      description: Proxmox,VMware vSphere (ESXi), KVM 
 
-    - name: Skill 3
-      color: blue
-      percentage: 50
-      description: Skill names can have colors too
+    - name: Gestores de contenidos (CMS)
+      description: Wordpress, Prestashop, Joomla, Xenforo, Drupal, Moodle, phpBB
 
-  softskills:
-    - name: SoftSkill 1
-      color: red
-      percentage: 80
-      #description:
+    - name: Hardware de red
+      description: Cisco, Juniper y Fortinet
 
-    - name:  SoftSkill 2
-      #color: 
-      percentage: 90
-      description: Description
+    - name: Cloud computing
+      description: AWS, Azure y Google Cloud
+
+    - name: Contenedores
+      description: Docker
+
+    - name: Sistemas operativos
+      description: Linux, Windows y MAC a nivel administrador  
 
   languages:
     - name: English
-      color: Blue
       percentage: 50
-      #description: 
+      description: B1 de Ingles obtenido en la Escuela Oficial de Idiomas de Castellón
 
-    - name: Gibberish
+    - name: Catalan/Valenciano
       percentage: 100
-      description: pasghettipigglywiggly
 
-
+    - name: Castellano
+      percentage: 100
+      
   projects:
-    - title: Project Red
+    - title: Security News for Everyone
       color: red
-      date: since 2019
-      link: https://example.com
-      description: Describing red stuff
+      date: octubre 2017 - noviembre 2022
+      link: https://t.me/SeguridadInformatica
+      description: Canal dedicado a noticias de Seguridad Informática en todos sus ámbitos, gratis y disponible las 24 horas del día, los 365 días del año.
 
-    - title: Project Blue
-      color: blue
-      date: since 2016
-      link: https://example.com/blue
-      #description: nothing to describe
+    - title: Whihax Security
+      color: red
+      date: junio 2015 - noviembre 2022
+      link: https://whihax.com/
+      description: Comunidad de divulgación de seguridad informática o ciberseguridad sin animo de lucro, orientada a todos los públicos y niveles de conocimiento de la materia. En esta comunidad cumplo con la función prinicial de ser el administrador y auditor de sistemas, además de dar ponencias en congresos de seguridad informática y dirigir el canal de Telegram, Security News for Everyone, junto con los otros miembros de la comunidad.
 
-    - title: Project Default
+  publications:
+    - title: Ponencia - ”Criptomonedas alternativas al Bitcoin” - Realizada en la edición de 2017 de VilaNET
+      color: red
+      date: 9 de octubre de 2017
+      description: La conferencia trata de algunas alternativas al Bitcoin que actualmente son rentables para invertir en ellas.
+
+    - title: Ponencia - ”La (in)seguridad informática de los gamers”- HACK & BEERS VALENCIA VOL.6 
+      color: red
+      date: Mayo 2016
+      link: https://www.youtube.com/watch?v=aacBFgVsH00
+      description: La conferencia trata de todos aquellos peligros que deben de afrontar los gamers a la hora de jugar a sus juegos favoritos.
+
+    - title: El blog de TFujiwara - Blog personal
       date: Since 2017
-      link: https://example.com/default
-      #description: not there either
-
-  misc: 
-    #commandName: newcommand
-    title: "This Section can have a different command name"
-    titleColor: teal
-    content: |
-          Here the title and the content can have different colors
-          The content can be multi
-          
-          line
-
-          And spaces       will be respected as well
-          This section will have the default command: misc
-          but you can name it something else with the property
-          commandName: <String>
-          Give it a shot and try and uncomment the line 
-          commandName: newcommand
-          now instead of misc you can execute the newcommand for this section
-          Auto completion will know it too! :D 
-
-    contentColor: orange
+      link: https://tfujiwara.github.io/blog/
+      description: El blog gira entorno a la seguridad informática, detallando algunas investigaciones realizadas.
