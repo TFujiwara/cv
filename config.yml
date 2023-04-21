@@ -1,4 +1,4 @@
-BaseURL: "https://tfujiwara.github.io/cv/"
+BaseURL: "https://blog.tfujiwara.tech/cv/"
 theme: "terminalcv"
 title: "Cristian Garcia Quevedo - Online CV (Curriculum Vitae)"
 
@@ -10,7 +10,7 @@ params:
   promptSimbolsColor: blue
 # startxLocation: https://example.com
 # hideSocialName: true
-  exitLocation: https://tfujiwara.github.io/blog/
+  exitLocation: https://blog.tfujiwara.tech/
   hidesource: true
   greeting: | 
     This is 4z4z3l
@@ -25,7 +25,7 @@ params:
       profession: "Administrador de sistemas"
       location: "Vila-real (Castellón)"
       email: "cgarciaquevedo94@gmail.com"
-      homelink: "https://tfujiwara.github.io/blog/"
+      homelink: "https://blog.tfujiwara.tech/"
       description: |
               Actualmente estoy trabajando de Administrador de Sistemas, en jornada completa.
 
@@ -281,5 +281,5 @@ params:
 
     - title: El blog de TFujiwara - Blog personal
       date: Since 2017
-      link: https://tfujiwara.github.io/blog/
+      link: https://blog.tfujiwara.tech
       description: El blog gira entorno a la seguridad informática, detallando algunas investigaciones realizadas.
